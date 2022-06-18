@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Poppins:400,500,600,700"/>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="icon" type="image/x-icon" href=".\Images\favicon-32x32.png"/>
+    <title>Responsive page task</title>
+    <script type="text/javascript" src="responsive.js"></script>
+</head>
+<body>
+    <div class="BIG-BODY">
+        <div class="item-a">
+        <div class="HEADING"><h1>Learn to code by <br> watching others</h1></div>
+        </div>   
+        <div class="item-a-writeup"><p>See how experienced developers solve problems in real time. <br>Watching scripted tutorials is great, but understanding how<br> developers think is invaluable.</p></div> 
+        <div class="item-b">
+        <div class="item-b-writeup"><p><b>Try it free 7 days</b> then $20/mo. thereafter</p></div>
+        </div>
+        <div class="item-c">
+        <div class="FORM"><form method="post" action="./action.php">
+        <div><input id="FirstNameId" type="text" onblur="SUBMIT1()" oninput="Remove()" placeholder="First Name" required/><br/><div id="WarningText1"><p>First Name cannot be empty</p></div></div>
+        <div id="INPUT2"><input id="LastNameId" type="text" onblur="SUBMIT2()" oninput="Remove()" placeholder="Last Name" required/><br/><div id="WarningText2"><p>Last Name cannot be empty</p></div></div>
+        <div id="INPUT3"><input id="EmailId" type="email" onblur="SUBMIT3()" oninput="Remove()" placeholder="Email Address" required/><br/><div id="WarningText3"><p>Email cannot be empty</p></div></div>
+        <div id="INPUT4"><input id="PasswordId" type="password" onblur="SUBMIT4()" title="Password must contain: Minimum 8 characters atleast 1 Alphabet and 1 Number" oninput="Remove()" placeholder="Password" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required/><br/><div id="WarningText4"><p>Password cannot be empty</p></div></div>
+        <input id="SubmitId" name="form" onclick="SUBMIT()" type="submit" value="CLAIM YOUR FREE TRAIL"/>
+        </form> 
+        <p class="item-c-text-below">By clicking the button, you are agreeing to our <font color= crimson</font>Terms and Services</font></p>
+        </div>
+         </div>
+    </div>
+</body>
+</html>
