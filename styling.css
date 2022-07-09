@@ -1,4 +1,4 @@
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 920px) {
     /* For desktop: */
     *{  
         margin: 0;
@@ -21,7 +21,7 @@
         'item-a item-a item-a item-c item-c item-c'
         'item-a item-a item-a item-c item-c item-c'
          ;
-        gap: 16px;
+        gap: 1rem;
         width: 90%;
         height: 50%;
         margin: auto;
@@ -37,23 +37,23 @@
     }
     .HEADING{
         color: white;
-        font-size: 16px;
+        font-size: 1rem;
         font-family: 'Poppins';
         font-weight: 700;
         position: relative;
         top: 150px;
-        left: 13%;
+        left: 6%;
         justify-content: left;
     }
     
     .item-a-writeup{
         color: white;
-        font-size: 16px;
+        font-size: 1rem;
         font-family: 'Poppins';
         font-weight: 500;
         justify-content: left;
         position: relative;
-        left: 13%;
+        left: 5%;
         bottom: 315px;
         width: 100%;
     }
@@ -71,7 +71,7 @@
     }
     .item-b-writeup{
         color: white;
-        font-size: 16px;
+        font-size: 1rem;
         font-family: 'Poppins';
         font-weight: 400;
         text-align: center;
@@ -94,7 +94,7 @@
         position: relative;
         top: 120px;
         font-family: 'Poppins';
-        font-size: 10px;
+        font-size: 0.625rem;
     }
     .FORM{
         text-align: center;
@@ -120,7 +120,7 @@
     border-color: rgb(209, 209, 209);
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     position: relative;
     top: 20px;
     }
@@ -140,7 +140,7 @@
     border-color: rgb(209, 209, 209);
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     }
 
     #LastNameId:focus{
@@ -157,7 +157,7 @@
     border-color: rgb(209, 209, 209);
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     }
 
     #EmailId:focus{
@@ -174,7 +174,7 @@
     border-color: rgb(209, 209, 209);
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     }
 
 
@@ -194,7 +194,7 @@
     top:115px;
     font-family: 'Poppins';
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     color: white
     }
     
@@ -214,7 +214,7 @@
         left: 21%;
         bottom: -18px;
         color:hsl(0, 100%, 74%);
-        font-size: 13px;
+        font-size: 0.813rem;
         font-family: 'Poppins';
         font-style: italic;
         font-weight: 400;
@@ -234,7 +234,7 @@
         left: 21%;
         bottom: -48px;
         color:hsl(0, 100%, 74%);
-        font-size: 13px;
+        font-size: 0.813rem;
         font-family: 'Poppins';
         font-style: italic;
         font-weight: 400;
@@ -254,7 +254,7 @@
         left: 24%;
         bottom: -79px;
         color:hsl(0, 100%, 74%);
-        font-size: 13px;
+        font-size: 0.813rem;
         font-family: 'Poppins';
         font-style: italic;
         font-weight: 400;
@@ -274,7 +274,7 @@
         left: 21%;
         bottom: -103px;
         color:hsl(0, 100%, 74%);
-        font-size: 13px;
+        font-size: 0.813rem;
         font-family: 'Poppins';
         font-style: italic;
         font-weight: 400;
@@ -295,8 +295,8 @@
    
 }
 
-@media only screen and (max-width: 375px) {
-    /* For mobile phones: */
+@media only screen and (max-width: 920px) {
+    /* For tablets: */
     *{  
         margin: 0;
         padding: 0;
@@ -304,11 +304,11 @@
     }
    
     body{
-        background: url("./Images/bg-intro-mobile.png");
+        background: url("./Images/bg-intro-desktop.png");
         height: 100%;
         background-color: hsl(0, 100%, 74%);
         place-items: center;
-        overflow: hidden;
+        overflow-y: hidden;
     
     }
     .BIG-BODY{
@@ -336,24 +336,24 @@
     }
     .HEADING{
         color: white;
-        font-size: 12px;
+        font-size: 0.8rem;
         font-family: 'Poppins';
         font-weight: 400;
         position: relative;
         top: -90px;
-        left: 20%;
-        justify-content: left;
+        left: 40%;
+        text-align: left;
         height: 10px;
     }
     
     .item-a-writeup{
         color: white;
-        font-size: 10px;
+        font-size: 0.8rem;
         font-family: 'Poppins';
         font-weight: 500;
         position: relative;
-        left: 13%;
-        bottom: 423px;
+        left: 20%;
+        bottom: 415px;
         text-align: center;
     }
     .item-b{
@@ -363,14 +363,14 @@
         border-radius: 8px;
         position: relative;
         right: 0%;
-        top: 90%;
+        top: 70%;
         box-shadow: rgba(88, 88, 88, 0.445) 0px 6px;
         width: 100%;
     
     }
     .item-b-writeup{
         color: white;
-        font-size: 14px;
+        font-size: 0.88rem;
         font-family: 'Poppins';
         font-weight: 400;
         text-align: center;
@@ -386,14 +386,14 @@
         box-shadow: rgba(88, 88, 88, 0.445) 0px 6px;
         position: relative;
         left: 0%;
-        top: 50px;
+        top: 40px;
         
     }
     .item-c-text-below{
         position: relative;
         top: 58px;
         font-family: 'Poppins';
-        font-size: 7px;
+        font-size: 0.6rem;
     }
     .FORM{
         text-align: center;
@@ -419,7 +419,9 @@
     border-color: rgb(209, 209, 209);
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
+    position: relative;
+    top: 20px;
     }
     #FirstNameId:focus{
         border-color: black;
@@ -435,7 +437,7 @@
     border-color: rgb(209, 209, 209);
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     }
     #LastNameId:focus{
         border-color: black;
@@ -450,7 +452,7 @@
     border-color: rgb(209, 209, 209);
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     }
     #EmailId:focus{
         border-color: black;
@@ -466,7 +468,7 @@
     border-color: rgb(209, 209, 209);
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     }
 
     #PasswordId:focus{
@@ -484,7 +486,7 @@
     top:56px;
     font-family: 'Poppins';
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.88rem;
     color: white
     }
     
@@ -504,7 +506,7 @@
         left: 13%;
         bottom: -18px;
         color:hsl(0, 100%, 74%);
-        font-size: 11px;
+        font-size: 0.69rem;
         font-family: 'Poppins';
         font-style: italic;
         font-weight: 400;
@@ -524,7 +526,7 @@
         left: 13%;
         bottom: -30px;
         color:hsl(0, 100%, 74%);
-        font-size: 11px;
+        font-size: 0.69rem;
         font-family: 'Poppins';
         font-style: italic;
         font-weight: 400;
@@ -544,7 +546,7 @@
         left: 17%;
         bottom: -40px;
         color:hsl(0, 100%, 74%);
-        font-size: 11px;
+        font-size: 0.69rem;
         font-family: 'Poppins';
         font-style: italic;
         font-weight: 400;
@@ -564,7 +566,297 @@
         left: 14%;
         bottom: -50px;
         color:hsl(0, 100%, 74%);
-        font-size: 11px;
+        font-size: 0.69rem;
+        font-family: 'Poppins';
+        font-style: italic;
+        font-weight: 400;
+        padding-bottom: 2px;
+    }
+    #erroricon4{
+        display: none;
+        position: relative;
+        left: 80%;
+        bottom: 6px;
+        height: 20px;
+        
+    }
+
+
+
+   
+}
+@media only screen and (max-width: 425px) {
+    /* For mobile phones: */
+    *{  
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+   
+    body{
+        background: url("./Images/bg-intro-mobile.png");
+        background-color: hsl(0, 100%, 74%);
+        place-items: center;
+        overflow-y: hidden;
+        width: 100%;
+        height: 100%;
+    
+    }
+    .BIG-BODY{
+        display: grid;
+        grid-template-areas:
+        'item-a item-a item-a'
+        'item-a item-a item-a'
+        'item-b item-b item-b'
+        'item-c item-c item-c'
+        'item-c item-c item-c'
+         ;
+        gap: 4px;
+        width: 80%;
+        height: 50%;
+        margin: auto;
+        position: relative;
+        top: 100px;
+
+    }
+    .item-a{
+        grid-area: item-a;
+        height: 30px;
+        position: relative;
+        width: 80%;
+    }
+    .HEADING{
+        color: white;
+        font-size: 0.75rem;
+        font-family: 'Poppins';
+        font-weight: 400;
+        position: relative;
+        top: -90px;
+        left: 13%;
+        text-align: center;
+        height: 10px;
+    }
+    
+    .item-a-writeup{
+        color: white;
+        font-size: 0.63rem;
+        font-family: 'Poppins';
+        font-weight: 500;
+        position: relative;
+        left: 11%;
+        bottom: 423px;
+        text-align: center;
+        top: -420px;
+    }
+    .item-b{
+        background-color:  hsl(248, 32%, 49%);
+        grid-area: item-b;
+        height: 40px;
+        border-radius: 8px;
+        position: relative;
+        right: 0%;
+        top: 60%;
+        box-shadow: rgba(88, 88, 88, 0.445) 0px 6px;
+        width: 100%;
+    
+    }
+    .item-b-writeup{
+        color: white;
+        font-size: 0.7rem;
+        font-family: 'Poppins';
+        font-weight: 400;
+        text-align: center;
+        position: relative;
+        top: 12px;
+    }
+    .item-c{
+        background-color: white;
+        grid-area: item-c;
+        height: 330px;
+        border-radius: 10px;
+        width: 100%;
+        box-shadow: rgba(88, 88, 88, 0.445) 0px 6px;
+        position: relative;
+        left: 0%;
+        top: 30px;
+        
+    }
+    .item-c-text-below{
+        position: relative;
+        top: 58px;
+        font-family: 'Poppins';
+        font-size: 0.6rem;
+    }
+    .FORM{
+        text-align: center;
+        position: relative;
+        top: -4px;
+
+    }
+    ::placeholder{
+        font-family:'Poppins'; 
+        position: relative;
+        left: 0%;
+    }
+    option{
+    font-family: 'Poppins';
+    font-weight: bold;  
+    }
+    
+    #FirstNameId{
+    border-radius: 6px;
+    height: 35px;
+    width:80%;
+    padding: 13px 18px;
+    border-color: rgb(209, 209, 209);
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1rem;
+    }
+    #FirstNameId:focus{
+        border-color: black;
+        }
+    
+    #LastNameId{
+    border-radius: 6px;
+    height: 35px;
+    width:80%;
+    position: relative;
+    top: 30px;
+    padding: 13px 18px;
+    border-color: rgb(209, 209, 209);
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1rem;
+    }
+    #LastNameId:focus{
+        border-color: black;
+        }
+    #EmailId{
+    border-radius: 6px;
+    height: 35px;
+    width:80%;
+    position: relative;
+    top: 40px;
+    padding: 13px 18px;
+    border-color: rgb(209, 209, 209);
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1rem;
+    }
+    #EmailId:focus{
+        border-color: black;
+        }
+    
+    #PasswordId{
+    border-radius: 6px;
+    height: 35px;
+    width: 80%;
+    position: relative;
+    top: 50px;
+    padding: 13px 18px;
+    border-color: rgb(209, 209, 209);
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1rem;
+    }
+
+    #PasswordId:focus{
+        border-color: black;
+        }
+    #SubmitId{
+    background-color:  hsl(154, 59%, 51%);
+    box-shadow:rgba(0, 0, 0, 0.315) 2px 2px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    height: 32px;
+    width:80%;
+    position:relative;
+    left:0px;
+    top:56px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 0.88rem;
+    color: white
+    }
+    
+    #SubmitId:hover{
+        width:80%;  
+        height: 32px;
+        background-color: hsl(154, 58%, 59%); 
+        cursor: pointer;
+    }
+    
+    #SubmitId:focus{
+        box-shadow:rgba(0, 0, 0, 0.315) 0px 0px;   
+    } 
+    #WarningText1{
+        display: none;
+        position: relative;
+        left: 13%;
+        bottom: -18px;
+        color:hsl(0, 100%, 74%);
+        font-size: 0.69rem;
+        font-family: 'Poppins';
+        font-style: italic;
+        font-weight: 400;
+        padding-bottom: 2px;
+    }
+    #erroricon1{
+        display: none;
+        position: relative;
+        left: 80%;
+        bottom: 14px;
+        height: 20px;
+        
+    }
+    #WarningText2{
+        display: none;
+        position: relative;
+        left: 13%;
+        bottom: -30px;
+        color:hsl(0, 100%, 74%);
+        font-size: 0.69rem;
+        font-family: 'Poppins';
+        font-style: italic;
+        font-weight: 400;
+        padding-bottom: 2px;
+    }
+    #erroricon2{
+        display: none;
+        position: relative;
+        left: 80%;
+        bottom: 6px;
+        height: 20px;
+        
+    }
+    #WarningText3{
+        display: none;
+        position: relative;
+        left: 17%;
+        bottom: -40px;
+        color:hsl(0, 100%, 74%);
+        font-size: 0.69rem;
+        font-family: 'Poppins';
+        font-style: italic;
+        font-weight: 400;
+        padding-bottom: 2px;
+    }
+    #erroricon3{
+        display: none;
+        position: relative;
+        left: 80%;
+        bottom: 6px;
+        height: 20px;
+        
+    }
+    #WarningText4{
+        display: none;
+        position: relative;
+        left: 14%;
+        bottom: -50px;
+        color:hsl(0, 100%, 74%);
+        font-size: 0.69rem;
         font-family: 'Poppins';
         font-style: italic;
         font-weight: 400;
