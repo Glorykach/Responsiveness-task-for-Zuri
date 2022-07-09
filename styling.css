@@ -655,7 +655,7 @@
         border-radius: 8px;
         position: relative;
         right: 0%;
-        top: 60%;
+        top: 43px;
         box-shadow: rgba(88, 88, 88, 0.445) 0px 6px;
         width: 100%;
     
@@ -678,7 +678,7 @@
         box-shadow: rgba(88, 88, 88, 0.445) 0px 6px;
         position: relative;
         left: 0%;
-        top: 30px;
+        top: 50px;
         
     }
     .item-c-text-below{
